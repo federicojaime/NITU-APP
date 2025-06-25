@@ -1,0 +1,6 @@
+{
+  "name": "NITU Parking System",
+  "description": "A comprehensive web application for managing parking lot operations, including vehicle entry/exit, space management, billing, and analytics. Features owner and employee dashboards with role-specific functionalities.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
