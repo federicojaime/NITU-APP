@@ -8,7 +8,7 @@ import { Card } from '../components/ui/Card';
 import { Input } from '../components/ui/Input';
 import { Modal } from '../components/ui/Modal';
 import { ParkingLot } from '../types'; 
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { formatDate } from '../utils/helpers';
 import { AdvertisementManagement } from '../components/AdvertisementManagement'; // Import AdvertisementManagement
 

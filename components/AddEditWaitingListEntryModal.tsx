@@ -7,7 +7,7 @@ import { Select } from './ui/Select';
 import { Alert } from './ui/Alert';
 import { WaitingListEntry, WaitingListStatus, VehicleType } from '../types';
 import { WaitingListStatusOptions } from '../constants';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { vehicleTypeOptions } from '../utils/helpers';
 
 interface AddEditWaitingListEntryModalProps {

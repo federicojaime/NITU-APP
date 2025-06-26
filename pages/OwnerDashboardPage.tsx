@@ -22,7 +22,7 @@ import { ClientReservationsManagement } from '../components/owner/ClientReservat
 
 
 import { ParkingSpace, PricingSettings, Employee, Customer, Transaction, Advertisement, AdvertisementDisplayLocation } from '../types'; 
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { DEFAULT_PRICING_SETTINGS } from '../constants';
 
 enum OwnerTab {

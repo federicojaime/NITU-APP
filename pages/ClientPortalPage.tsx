@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Advertisement, AdvertisementDisplayLocation } from '../types';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { LoadingSpinner } from '../components/ui/LoadingSpinner';
 import { Alert } from '../components/ui/Alert';
 import { Card } from '../components/ui/Card';

@@ -8,7 +8,7 @@ import { Alert } from './ui/Alert';
 import { Modal } from './ui/Modal'; 
 import { Button } from './ui/Button'; 
 import { ManageSpaceModal } from './ManageSpaceModal';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { formatCurrency } from '../utils/helpers';
 
 interface EmployeeMainViewProps {

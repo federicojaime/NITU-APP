@@ -6,7 +6,7 @@ import { Select } from './ui/Select';
 import { Alert } from './ui/Alert';
 import { Advertisement, AdvertisementDisplayLocation } from '../types'; // Corrected UserRole to AdvertisementDisplayLocation
 import { AdvertisementDisplayLocationOptions } from '../constants';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 
 interface AddEditAdvertisementModalProps {
   isOpen: boolean;

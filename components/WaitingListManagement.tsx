@@ -7,7 +7,7 @@ import { Alert } from './ui/Alert';
 import { LoadingSpinner } from './ui/LoadingSpinner';
 import { Modal } from './ui/Modal';
 import { AddEditWaitingListEntryModal } from './AddEditWaitingListEntryModal';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { formatDate } from '../utils/helpers';
 import { WaitingListStatusOptions } from '../constants'; // For Select dropdown
 

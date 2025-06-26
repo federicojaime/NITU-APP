@@ -7,7 +7,7 @@ import { Button } from '../components/ui/Button';
 import { LoadingSpinner } from '../components/ui/LoadingSpinner';
 import { Alert } from '../components/ui/Alert';
 import { Transaction } from '../types';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { WaitingListManagement } from '../components/WaitingListManagement'; // Added
 
 enum EmployeeTab {

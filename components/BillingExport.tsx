@@ -7,7 +7,7 @@ import { Card } from './ui/Card';
 import { Alert } from './ui/Alert';
 import { LoadingSpinner } from './ui/LoadingSpinner';
 import { downloadCsv, formatDate, formatCurrency, calculateParkingDuration } from '../utils/helpers';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 
 interface BillingExportProps {
   parkingLotId: string;

@@ -8,7 +8,7 @@ import { Button } from '../components/ui/Button';
 import { Alert } from '../components/ui/Alert';
 import { Select } from '../components/ui/Select';
 import { RenderAdvertisement } from '../components/RenderAdvertisement'; // Added
-import * as firebaseService from '../services/firebaseService'; // Added
+import * as firebaseService from '../services/databaseService'; // Added
 
 const NituLogo = () => (
     <svg viewBox="0 0 200 50" className="h-12 w-auto mx-auto mb-2 text-primary" fill="currentColor">

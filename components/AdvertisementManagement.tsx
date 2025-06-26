@@ -7,7 +7,7 @@ import { Alert } from './ui/Alert';
 import { LoadingSpinner } from './ui/LoadingSpinner';
 import { Modal } from './ui/Modal';
 import { AddEditAdvertisementModal } from './AddEditAdvertisementModal';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 import { formatDate } from '../utils/helpers';
 import { AdvertisementDisplayLocationOptions } from '../constants';
 

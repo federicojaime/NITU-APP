@@ -1,7 +1,7 @@
 
 import React, { createContext, useState, useContext, ReactNode, useCallback, useEffect } from 'react';
 import { UserRole, AuthenticatedUser } from '../types';
-import * as firebaseService from '../services/firebaseService';
+import * as firebaseService from '../services/databaseService';
 
 interface AuthContextType {
   currentUser: AuthenticatedUser | null;
